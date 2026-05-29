@@ -37,6 +37,12 @@ npm run build
 
 ## Project page URL
 
-Replace this with your GitHub Pages or hosted URL after publishing:
+The project page for this challenge is:
 
-`https://<your-github-username>.github.io/QuizApp`
+`https://roadmap.sh/projects/quiz-app`
+
+## Repository
+
+The solution is available in the public GitHub repository:
+
+`https://github.com/manthan2876/QuizApp`

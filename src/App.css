@@ -27,7 +27,7 @@
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 28px;
-  background: #ffffff;
+  background: var(--surface);
   box-shadow: var(--shadow);
 }
 
@@ -56,17 +56,17 @@
 }
 
 .primary-button {
-  background: linear-gradient(135deg, #7b5cff, #6c70ff);
+  background: linear-gradient(135deg, #5b6bff, #3d52e1);
 }
 
 .secondary-button {
-  background: #ece7ff;
-  color: #3f377e;
+  background: #eef0ff;
+  color: #31364d;
 }
 
 .primary-button:hover,
 .secondary-button:hover {
-  filter: brightness(1.03);
+  filter: brightness(1.04);
 }
 
 .quiz-meta {
@@ -81,12 +81,12 @@
   border-radius: 18px;
   padding: 16px 18px;
   text-align: left;
-  background: #f9f8ff;
+  background: #f7f8ff;
 }
 
 .meta-item span {
   display: block;
-  color: #6d6682;
+  color: #6d6f82;
   margin-bottom: 8px;
   font-size: 0.9rem;
 }
@@ -96,7 +96,7 @@
 }
 
 .timer {
-  background: #fff6f0;
+  background: #fff7f1;
 }
 
 .question-card h2 {
@@ -118,25 +118,26 @@
   font-size: 1rem;
   text-align: left;
   cursor: pointer;
-  background: #f8f7ff;
+  background: #f8f8ff;
   color: var(--text-h);
   transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
 }
 
 .answer-button:hover {
   transform: translateY(-1px);
+  background: #eef0ff;
 }
 
 .answer-button.correct {
-  background: #d4f7e4;
-  border-color: #4cc56d;
+  background: #d9f7e7;
+  border-color: #45a165;
   color: #1f4330;
 }
 
 .answer-button.wrong {
-  background: #ffe0df;
-  border-color: #f27066;
-  color: #6d2e2b;
+  background: #ffe7e6;
+  border-color: #df5b5c;
+  color: #7a262c;
 }
 
 .answer-button.disabled {
@@ -165,7 +166,7 @@
   border-radius: 18px;
   padding: 20px;
   text-align: left;
-  background: #faf9ff;
+  background: #ffffff;
 }
 
 .result-item h3 {
@@ -176,19 +177,19 @@
 
 .result-item p {
   margin: 4px 0;
-  color: #504f61;
+  color: #4d4f63;
 }
 
 .result-correct {
-  border-color: #7bee9d;
+  border-color: #78d6a3;
 }
 
 .result-wrong {
-  border-color: #ffa5a2;
+  border-color: #ffb0ae;
 }
 
 .result-expired {
-  border-color: #f7d17b;
+  border-color: #f8d295;
 }
 
 @media (max-width: 800px) {
